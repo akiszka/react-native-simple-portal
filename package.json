@@ -1,0 +1,31 @@
+{
+	"name": "react-native-simple-portal",
+	"version": "1.0.0",
+	"description": "A portal implementation for React Native",
+	"keywords": [
+		"react-native",
+		"react",
+		"portal",
+		"expo"
+	],
+	"scripts": {
+		"prepublish": "tsc",
+		"fix": "prettier -w ."
+	},
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"repository": "https://github.com/akiszka/react-native-simple-portal",
+	"author": "Antoni Kiszka",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@types/react": "^17.0.39",
+		"@types/react-native": "^0.66.15",
+		"prettier": "^2.5.1",
+		"typescript": "^4.5.5"
+	},
+	"peerDependencies": {
+		"react": "*",
+		"react-native": "*"
+	}
+}

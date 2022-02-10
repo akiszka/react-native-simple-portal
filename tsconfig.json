@@ -1,0 +1,19 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		"target": "es2015",
+		"lib": ["es2017", "dom"],
+		"strict": true,
+		"declaration": true, // generates declaration files
+		"esModuleInterop": true,
+		"jsx": "react",
+		"module": "es2015",
+		"outDir": "dist",
+		"noEmitOnError": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"pretty": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	}
+}
