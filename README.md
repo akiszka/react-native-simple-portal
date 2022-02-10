@@ -16,7 +16,7 @@
 
 Add the package to your project: `yarn add react-native-simple-portal`.
 
-Then, wrap your app in the `PortalProvider`. The placement of this component has no influence on how your app looks, but any portals will have to be inside it.
+Then, wrap your app with the `PortalProvider`. The placement of this component has no influence on how your app looks, but any portals will have to be inside it.
 
 ```tsx
 export function App() {
@@ -45,11 +45,13 @@ function ExampleScreen() {
 
 function Component1() {
     return (
-        <Text>Hello, world!</Text>
+        <View>
+            <Text>Hello, world!</Text>
 
-        <PortalIn gateName="example">
-            <Text>I've teleported!</Text>
-        </PortalIn>
+            <PortalIn gateName="example">
+                <Text>I've teleported!</Text>
+            </PortalIn>
+        </View>
     )
 }
 ```
